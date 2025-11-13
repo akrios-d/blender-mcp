@@ -63,7 +63,7 @@ public class BlenderConnection {
         ByteArrayOutputStream baos = new ByteArrayOutputStream();
         byte[] buffer = new byte[8192];
         long startTime = System.currentTimeMillis();
-        int timeoutMs = 5000; // 5 seconds timeout
+        int timeoutMs = 60000; // 60 seconds timeout
 
         while (true) {
             // Check for timeout
